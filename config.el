@@ -75,3 +75,8 @@
 ;; they are implemented.
 
 (global-subword-mode t)
+
+(map!
+ "s-c" #'compile
+ "s-m" #'magit-status
+)
