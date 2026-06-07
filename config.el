@@ -79,5 +79,6 @@
 (map!
  "s-c" #'compile
  "s-m" #'magit-status
+ "s-f" #'rgrep
  "C-c d" #'duplicate-line
 )
