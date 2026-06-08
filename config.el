@@ -82,3 +82,8 @@
  "s-f" #'rgrep
  "C-c d" #'duplicate-line
 )
+
+(add-function :after after-focus-change-function
+  (lambda ()
+    (unless (frame-focus-state)
+      (save-some-buffers t))))
