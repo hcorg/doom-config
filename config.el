@@ -94,3 +94,4 @@
   (let ((shell-command-switch "-ic"))
     ad-do-it))
 
+(setq comint-buffer-maximum-size 4000000000)
