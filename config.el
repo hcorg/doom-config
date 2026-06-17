@@ -95,3 +95,6 @@
     ad-do-it))
 
 (setq comint-buffer-maximum-size 4000000000)
+
+(add-to-list 'auto-mode-alist '("SConstruct" . python-mode))
+(add-to-list 'auto-mode-alist '("SConscript" . python-mode))
