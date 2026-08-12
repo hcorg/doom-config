@@ -100,3 +100,5 @@
 
 (add-to-list 'auto-mode-alist '("SConstruct" . python-mode))
 (add-to-list 'auto-mode-alist '("SConscript" . python-mode))
+
+(add-to-list 'grep-find-ignored-directories "build")
